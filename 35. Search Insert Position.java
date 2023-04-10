@@ -1,5 +1,3 @@
-
-//Versão que passa em todos os casos de teste:
 class Solution {
     public int searchInsert(int[] nums, int target) {
         int inicio = 0;
@@ -21,11 +19,9 @@ class Solution {
                 return buscaBinaria(nums, target, meio + 1, fim);
             }
         } else {//caso base 2: O valor não existe no array e precisa pensar no indice que ele estaria se esse número existisse
-                
+                return inicio;// suposto meio +1 da penúltima chamada recursiva
 
                 }
 
             }
         }
-    }
-}
