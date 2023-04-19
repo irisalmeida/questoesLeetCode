@@ -1,4 +1,3 @@
- //Floor(piso) é uma variação de Busca Binária, em que se tenta encontrar o menor inteiro mais próximo
 public class floor {
     public static  int floorBusca(int[]array, int x){
         int left= 0;
